@@ -1,0 +1,96 @@
+<html>
+
+<head>
+<title>CSS Menu</title>
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+<style>
+body {
+	background-color: red;
+}
+.container {
+	background-color: #ff8888;
+}
+.dropdown {
+	display: inline;
+}
+</style>
+</head>
+
+
+<body>
+<div class="container">
+	<h1>CSS Menu</h1><br>
+
+	<div class="dropdown">
+		<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+			File
+			<span class="caret"></span>
+		</button>
+		<ul class="dropdown-menu">
+			<li><a href="#">File Menu Choice 1</a></li>
+			<li><a href="#">File Menu Choice 2</a></li>
+			<li><a href="#">File Menu Choice 3</a></li>
+			<li><a href="#">File Menu Choice 4</a></li>
+			<li><a href="#">File Menu Choice 5</a></li>
+		</ul>
+	</div>
+	<div class="dropdown">
+		<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+			Edit
+			<span class="caret"></span>
+		</button>
+		<ul class="dropdown-menu">
+			<li><a href="#">Edit Menu Choice 1</a></li>
+			<li><a href="#">Edit Menu Choice 2</a></li>
+			<li><a href="#">Edit Menu Choice 3</a></li>
+			<li><a href="#">Edit Menu Choice 4</a></li>
+			<li><a href="#">Edit Menu Choice 5</a></li>
+		</ul>
+	</div>
+	<div class="dropdown">
+		<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+			View
+			<span class="caret"></span>
+		</button>
+		<ul class="dropdown-menu">
+			<li><a href="#">View Menu Choice 1</a></li>
+			<li><a href="#">View Menu Choice 2</a></li>
+			<li><a href="#">View Menu Choice 3</a></li>
+			<li><a href="#">View Menu Choice 4</a></li>
+			<li><a href="#">View Menu Choice 5</a></li>
+		</ul>
+	</div>
+	<div class="dropdown">
+		<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+			Tools
+			<span class="caret"></span>
+		</button>
+		<ul class="dropdown-menu">
+			<li><a href="#">Tools Menu Choice 1</a></li>
+			<li><a href="#">Tools Menu Choice 2</a></li>
+			<li><a href="#">Tools Menu Choice 3</a></li>
+			<li><a href="#">Tools Menu Choice 4</a></li>
+			<li><a href="#">Tools Menu Choice 5</a></li>
+		</ul>
+	</div>
+	<div class="dropdown">
+		<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+			Help
+			<span class="caret"></span>
+		</button>
+		<ul class="dropdown-menu">
+			<li><a href="#">Help Menu Choice 1</a></li>
+			<li><a href="#">Help Menu Choice 2</a></li>
+			<li><a href="#">Help Menu Choice 3</a></li>
+			<li><a href="#">Help Menu Choice 4</a></li>
+			<li><a href="#">Help Menu Choice 5</a></li>
+		</ul>
+	</div><br>
+</div>
+
+
+</body>
+</html>

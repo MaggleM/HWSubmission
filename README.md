@@ -7,6 +7,7 @@ Fitness Tracker App Features:
 
 
 Future Expansions:
+
 -Nutrition total saved on a calandar so you know how you've been doing for the month                                    
 -Fitness tip of the day                                                                                                 
 -Hydration reminder                                                                                                     

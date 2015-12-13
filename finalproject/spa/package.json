@@ -1,0 +1,17 @@
+{
+  "name": "michaelmcgovern",
+  "version": "0.1.0",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "express": "^4.13.3",
+    "express-session": "^1.12.1",
+    "mysql": "^2.9.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "main": "expressFood.js",
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC"
+}
